@@ -1,0 +1,74 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: #d4db96;
+}
+h1 {
+  display: inline;
+  text-decoration: underline;
+  color: blue;
+  background-color: lightgrey;
+}
+
+header {
+  text-align: right;
+  display: flex;
+  justify-content: end;
+  background-image: url("grass.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px double darkgreen;
+  padding: 40px;
+}
+
+h2,
+h3 {
+  display: inline;
+  font-size: 24px;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-size: 22px;
+}
+::placeholder {
+  background-color: lightgreen;
+}
+input {
+  background-color: lightgreen;
+}
+
+small {
+  padding: 35px;
+}
+p,
+ul,
+h4,
+form {
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+
+  padding: 10px;
+}
+div :hover {
+  color: white;
+}
+img {
+  padding: 4px;
+  border: 4px double darkgreen;
+}
+iframe {
+  border: 4px double darkgreen;
+}
+li {
+  list-style-type: circle;
+}
